@@ -21,7 +21,6 @@ class CustomMetaData {
       $contentMeta = $this->content_filter_vs_shortcodes($contentMeta) ;
       if ($excerptMeta != ""):
         ?>
-         <meta name="excerpttest" />
           <meta name="description" content="<?php echo $excerptMeta;?>"/>
         <?php
       else:  
